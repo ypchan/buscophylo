@@ -1,4 +1,3 @@
-# ![Title](images/Title.png)
 A  workflow for conducting phylognetic analysis based on BUSCO orthologs (protein sequences **NOT** nucleotide sequences).
 
 ![Work flow](images/gpa_workflow.jpg)
