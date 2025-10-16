@@ -99,7 +99,7 @@ Generate datasets of single-copy BUSCOs.
 
 ```bash
 ls genome_labels.list | awk '{print $1"\t../01_busco/"$1"_busco/run_fungi_odb10/full_table.tsv"}' | \
-single_copy_busco_datasets.py -d ~/database/busco/fungi_odb10/links_to_ODB10.txt \
+generate_single_copy_busco_datasets.py -d ~/database/busco/fungi_odb10/links_to_ODB10.txt \
 -m class_matrix.tsv -c 50 -o 02_single_copy_busco_datasets -t 8 -
 
 # Or
