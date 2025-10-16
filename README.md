@@ -2,10 +2,18 @@
 
 A streamlined workflow for conducting phylogenetic analysis based on BUSCO orthologs (protein sequences, **not** nucleotide sequences).
 
+## 🔁 Workflow
 ![Workflow](images/gpa_workflow.jpg)
 
 ---
+## ⚙️ Step 0: Installation
+```bash
+gh repo clone ypchan/buscophylo
+cd buscophylo
+bash setup.sh
+``` 
 
+---
 ## 🚩 Step 1: Merge Genome Pieces (if needed)
 
 For some genomes, contigs or chromosomes are stored in separate FASTA files. Use `merge_assembly_pieces.py` to merge these into a single FASTA file.
