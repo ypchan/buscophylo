@@ -203,11 +203,9 @@ nohup iqtree -s 06_iqtree/concatenated.faa \
 
 ---
 
-## Citation
+## 📚 Citation
 
-If you use BUSCOphylo in your research, please cite:
+If you use buscophylo in your research, please cite:
 
-> Yanpeng Chen. BUSCOphylo: A workflow for phylogenetic analysis based on BUSCO orthologs. GitHub repository: [https://github.com/buscophylo](https://github.com/buscophylo)
-
----
+> Yanpeng Chen. buscophylo: A workflow for phylogenetic analysis based on BUSCO orthologs. GitHub repository: https://github.com/buscophylo
 
