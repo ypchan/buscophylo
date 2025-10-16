@@ -2,13 +2,12 @@
 # -*- coding: utf-8 -*-
 
 """
-BUSCO_gene_matrix_for_phylogenomic_analysis.py — Select BUSCO genes based on their taxa coverage.
+generate_single_copy_busco_datasets.py — Select BUSCO genes based on their taxa coverage.
 
 - Reads and filters BUSCO results (full_table.tsv per label).
 - Outputs a full matrix (URLs, Desc, counts, coverage, per-taxon status).
 - Generates single-copy BUSCO FASTA datasets for genes passing coverage.
 
-Optimized with multi-threading for faster I/O and processing.
 """
 
 from __future__ import annotations
@@ -282,7 +281,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(
         description=__doc__,
         formatter_class=argparse.RawDescriptionHelpFormatter,
-        prog="BUSCO_gene_matrix_for_phylogenomic_analysis.py",
+        prog="generate_single_copy_busco_datasets.py",
     )
     p.add_argument(
         "label_busco_full_table",
